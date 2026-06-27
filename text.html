@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .subscribe-box {
+      background: #222;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+      width: 350px;
+    }
+
+    .subscribe-box h4 {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .subscribe-box p {
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+      display: flex;
+    }
+
+    .subscribe-form input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      outline: none;
+      background: #333;
+      color: gray;
+    }
+
+    .subscribe-form input::placeholder {
+      color: gray;
+    }
+
+    .subscribe-form button {
+      background: gray;
+      color: white;
+      border: 1px solid gold;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .subscribe-form button:hover {
+      background: yellow;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="subscribe-box">
+    <h4>To stay Informed</h4>
+    <p>Get updates from MDPH delivered right to your inbox.</p>
+    <form class="subscribe-form">
+      <input type="email" placeholder="abc@xyz.com" required>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+</body>
+</html>

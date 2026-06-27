@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDPH Success Story</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+   
+    }
+
+    .success-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      
+    }
+
+    .success-text {
+      flex: 1 1 45%;
+      padding-right: 30px;
+    }
+
+    .success-text h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .success-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .success-logos {
+      flex: 1 1 50%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 per row */
+      gap: 25px;
+      justify-items: center;
+    }
+
+    .logo-box {
+      width: 140px;
+      height: 100px;
+      border: 1px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-box:hover {
+      transform: scale(1.05);
+    
+    }
+
+    .logo-box img {
+      max-width: 100%;
+      max-height: 80px;
+      object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+      .success-section {
+        flex-direction: column;
+      }
+      .success-text {
+        
+        text-align: center;
+      }
+      .success-logos {
+        grid-template-columns: repeat(2, 1fr);
+      
+      }
+    }
+
+    @media (max-width: 480px) {
+      .success-logos {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <section class="success-section">
+    <div class="success-text">
+      <h2>MDPH Success Story</h2>
+      <p>
+        MDPH has a wide range of quality products in its own brands in categories of Agarbatti, Dhoopbatti, Hand Sanitisers, Hand Wash, Edible Oils, Essential Oils, Packaged Tea, Mosquito Coils, Natural Hair Colour, Heena, Soya Chunks & Confectionary. 
+        Company’s flagship brand, <strong>Zed Black Agarbatti</strong>, is amongst the top 3 brands in its category in India.
+      </p>
+    </div>
+
+    <div class="success-logos">
+      
+      <div class="logo-box"><img src="aajtak-copy.webp" alt="Aaj Tak"></div>
+      <div class="logo-box"><img src="globallinker-copy.webp" alt="GlobalLinker"></div>
+      <div class="logo-box"><img src="yourstory-copy.webp" alt="YourStory"></div>
+      <div class="logo-box"><img src="kenfolios-copy.webp" alt="Kenfolios"></div>
+      <div class="logo-box"><img src="India-today-logo-1.png" alt="India Today"></div>
+    </div>
+  </section>
+
+</body>
+</html>
